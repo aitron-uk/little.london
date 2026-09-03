@@ -9,7 +9,7 @@ import {
   listAppointments,
   updateAppointment,
   updateSettings,
-} from './store'
+} from './store.js'
 
 export const app = express()
 

@@ -1,4 +1,4 @@
-import type { Appointment } from './types'
+import type { Appointment } from './types.js'
 
 export const DURATION_PRESETS = [
   { minutes: 30, label: '30m' },
