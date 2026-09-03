@@ -1,1 +1,1 @@
-export { app as default } from '../server/app.ts'
+export { app as default } from '../server/app'

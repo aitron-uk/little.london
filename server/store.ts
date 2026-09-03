@@ -1,11 +1,11 @@
-import { findOverlap } from '../shared/time.ts'
+import { findOverlap } from '../shared/time'
 import type {
   Appointment,
   AppointmentInput,
   Settings,
   StoreData,
-} from '../shared/types.ts'
-import { supabase } from './supabase.ts'
+} from '../shared/types'
+import { supabase } from './supabase'
 
 interface SettingsRow {
   shop_name: string
